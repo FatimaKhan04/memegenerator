@@ -1,0 +1,49 @@
+.header--nav{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  
+}
+.header--logo{
+  width: 50px;
+  display: flex;
+  align-self: center;
+  margin-left: 20px;
+}
+.header--heading{
+  color: white;
+  padding-left: 8px;
+  margin-right: auto;
+}
+.header--heading--two{
+  color: white;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  
+}
+.form--section{
+  width: 58%;
+  margin: auto;
+}
+.form{
+  margin-top: 30px;
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 17px;
+}
+.form--input{
+  border: 1px solid #D5D4D8;
+border-radius: 5px;
+margin-top: 10px ;
+height: 40px;
+}
+.form--button{
+margin-top: 10px;
+grid-column: 1 / -1;
+border-radius: 5px;
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+color: white;
+height: 40px;
+}
